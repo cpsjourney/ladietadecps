@@ -1,0 +1,283 @@
+
+body{
+    min-width: 550px;
+}
+
+.maintitle {
+    width: 800px;
+    height: 80px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: rgba(182, 66, 31, 0.685);
+    color: white;
+    box-shadow: 0px 0px 12px rgba(182, 66, 31, 0.685);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px / 5px;
+    border-style: double;
+
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .maintitle {
+        width: 300px;
+    }
+}
+
+.maintitle_2div {
+    width: 90%;
+    height: 50%;
+    padding: 10px;
+
+    background-color: rgba(182, 66, 31, 0.82);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .maintitle_2div {
+        font-size: 1.3em;
+        width: 75%;
+    }
+}
+
+.tabellacompleta {
+    width: 95%;
+    min-width: 550px;
+    max-width: 1500px;
+    height: 750px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: rgba(182, 66, 31, 0.156);
+
+    justify-content: center;
+    text-align: center;
+
+    overflow-y: auto;
+
+    border-radius: 10px / 10px;
+    scrollbar-color: rgba(182, 66, 31, 0.685) rgba(182, 66, 31, 0); /* for Firefox */
+}
+
+.tabellacompleta::-webkit-scrollbar {
+    width: 10px;
+}
+
+.tabellacompleta::-webkit-scrollbar-track {
+    background-color: lightgray;
+}
+
+.tabellacompleta::-webkit-scrollbar-thumb {
+    background-color: rgba(182, 66, 31, 0.685);
+    border-radius: 5px;
+}
+
+.introduzione {
+    min-width: 450px;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    background-color: rgba(182, 66, 31, 0.685);
+    color: white;
+    box-shadow: 0px 0px 12px rgba(182, 66, 31, 0.685);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.6em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .introduzione {
+        font-size: 1em;
+    }
+}
+
+.giornodellasettimanaecontenuto {
+    min-width: 450px;
+    width: auto;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.giornodellasettimana {
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+
+    margin-bottom: 70px;
+
+    background-color: rgba(182, 66, 31, 0.685);
+    color: white;
+    box-shadow: 0px 0px 12px rgba(182, 66, 31, 0.685);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .giornodellasettimana {
+        font-size: 1em;
+        width: 30%;
+    }
+}
+
+.titolocontenutoecontenuto {
+    width: 100%;
+    height: 280px;
+    margin-left: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divtitolocontenuto {
+    min-width: 120px;
+    width: 30%;
+    height: 20px;
+    max-height: 20px;
+    padding: 5px;
+
+    background-color: rgba(182, 66, 31, 0.685);
+    color: white;
+    box-shadow: 0px 0px 12px rgba(182, 66, 31, 0.685);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titolocontenuto{
+    min-width: 100px;
+    width: 200px;
+
+    color: white;
+
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#colazione_1 {
+    opacity: 1;
+}
+
+.titolocontenuto_leftarrow {
+    width: 30px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.2em;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.titolocontenuto_leftarrow:active{
+    cursor: default;
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .titolocontenuto_leftarrow {
+        width: 10px;
+        
+        font-size: 0.6em;
+    }
+}
+
+#left_1 {
+    opacity: 1;
+}
+
+.titolocontenuto_rightarrow {
+    width: 30px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    
+    font-size: 1.2em;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.titolocontenuto_rightarrow:active{
+    cursor: default;
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .titolocontenuto_rightarrow {
+        width: 10px;
+        
+        font-size: 0.6em;
+    }
+}
+
+.contenuto {
+    min-width: 300px;
+    width: auto;
+    max-width: 700px;
+    height: 170px;
+    padding: 10px;
+
+    background-color: rgba(182, 66, 31, 0.685);
+    color: white;
+    box-shadow: 0px 0px 12px rgba(182, 66, 31, 0.685);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    overflow-y: auto;
+    scrollbar-color: rgba(182, 66, 31, 0.872) rgba(182, 66, 31, 0); /* for Firefox */
+}
+
+/*DEDICATO ALLA VISUALE STRETTA DA PC*/
+@media screen and (max-width: 768px) {
+    .contenuto {
+        font-size: 0.8em;
+    }
+}
