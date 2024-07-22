@@ -385,11 +385,11 @@ titolocontenuto_leftarrow_5.onclick = function() {
     } else if (titolocontenuto_colazione_5.innerHTML === "MERENDA") {
         titolocontenuto_colazione_5.innerHTML = "PRANZO";
         contenuto_default_5.innerHTML = `
-            - TAGLIATELLE AL RAGU 250g | kcal: 402, prot: 15g, carbo: 50g, grassi: 17g, fibre: 9g<br>
+            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 707, PROT: 29g, CARBO: 112g, GRASSI: 17g, FIBRE: 15g) 
+            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
         `;
     } else if (titolocontenuto_colazione_5.innerHTML === "PRANZO") {
         titolocontenuto_colazione_5.innerHTML = "COLAZIONE";
@@ -406,11 +406,11 @@ titolocontenuto_rightarrow_5.onclick = function() {
     if (titolocontenuto_colazione_5.innerHTML === "COLAZIONE") {
         titolocontenuto_colazione_5.innerHTML = "PRANZO";
         contenuto_default_5.innerHTML = `
-            - TAGLIATELLE AL RAGU 250g | kcal: 402, prot: 15g, carbo: 50g, grassi: 17g, fibre: 9g<br>
+            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 707, PROT: 29g, CARBO: 112g, GRASSI: 17g, FIBRE: 15g) 
+            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
         `;
     } else if (titolocontenuto_colazione_5.innerHTML === "PRANZO") {
         titolocontenuto_colazione_5.innerHTML = "MERENDA";
@@ -546,18 +546,17 @@ titolocontenuto_leftarrow_7.onclick = function() {
         contenuto_default_7.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
             - 1 BANANA 100g | kcal: 90, prot: 1g, carbo: 22g<br>
-            - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 938, PROT: 27g, CARBO: 75g, GRASSI: 59g, FIBRE: 1g)
+            (_TOT_ KCAL: 630, PROT: 23g, CARBO: 27g, GRASSI: 46g, FIBRE: 0g)
         `;
     } else if (titolocontenuto_colazione_7.innerHTML === "MERENDA") {
         titolocontenuto_colazione_7.innerHTML = "PRANZO";
         contenuto_default_7.innerHTML = `
-            - CANNELLONI 250g | kcal: 422, prot: 20g, carbo: 50g, grassi: 17g, fibre: 3g<br>
+            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 727, PROT: 34g, CARBO: 112g, GRASSI: 17g, FIBRE: 9g)
+            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
         `;
     } else if (titolocontenuto_colazione_7.innerHTML === "PRANZO") {
         titolocontenuto_colazione_7.innerHTML = "COLAZIONE";
@@ -574,20 +573,19 @@ titolocontenuto_rightarrow_7.onclick = function() {
     if (titolocontenuto_colazione_7.innerHTML === "COLAZIONE") {
         titolocontenuto_colazione_7.innerHTML = "PRANZO";
         contenuto_default_7.innerHTML = `
-            - CANNELLONI 250g | kcal: 422, prot: 20g, carbo: 50g, grassi: 17g, fibre: 3g<br>
+            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 727, PROT: 34g, CARBO: 112g, GRASSI: 17g, FIBRE: 9g)
+            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
         `;
     } else if (titolocontenuto_colazione_7.innerHTML === "PRANZO") {
         titolocontenuto_colazione_7.innerHTML = "MERENDA";
         contenuto_default_7.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
             - 1 BANANA 100g | kcal: 90, prot: 1g, carbo: 22g<br>
-            - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 938, PROT: 27g, CARBO: 75g, GRASSI: 59g, FIBRE: 1g)
+            (_TOT_ KCAL: 630, PROT: 23g, CARBO: 27g, GRASSI: 46g, FIBRE: 0g)
         `;
     } else if (titolocontenuto_colazione_7.innerHTML === "MERENDA") {
         //riadattamento dei div dedicati alla cena
