@@ -76,6 +76,14 @@ titolocontenuto_leftarrow_1.onclick = function() {
             (_TOT_ KCAL: 862, PROT: 27g, CARBO: 183g, GRASSI: 2g, FIBRE: 9g)
         `;
     } else if (titolocontenuto_colazione_1.innerHTML === "PRANZO") {
+        titolocontenuto_colazione_1.innerHTML = "SPUNTINO";
+        contenuto_default_1.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_1.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_1.innerHTML = "COLAZIONE";
         contenuto_default_1.innerHTML = `
             - ALBUME D'UOVO 200g | kcal: 87, prot: 21g<br>
@@ -89,6 +97,14 @@ titolocontenuto_leftarrow_1.onclick = function() {
 titolocontenuto_rightarrow_1.onclick = function() {
 
     if (titolocontenuto_colazione_1.innerHTML === "COLAZIONE") {
+        titolocontenuto_colazione_1.innerHTML = "SPUNTINO";
+        contenuto_default_1.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_1.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_1.innerHTML = "PRANZO";
         contenuto_default_1.innerHTML = `
             - PASTA (in bianco) 130g | kcal: 460, prot: 12g, carbo: 90g, grassi: 1g, fibre: 2g<br>
@@ -236,6 +252,14 @@ titolocontenuto_leftarrow_3.onclick = function() {
             (_TOT_ KCAL: 978, PROT: 49g, CARBO: 183g, GRASSI: 10g, FIBRE: 11g)
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "PRANZO") {
+        titolocontenuto_colazione_3.innerHTML = "SPUNTINO";
+        contenuto_default_3.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_3.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_3.innerHTML = "COLAZIONE";
         contenuto_default_3.innerHTML = `
             - ALBUME D'UOVO 200g | kcal: 87, prot: 21g<br>
@@ -243,12 +267,19 @@ titolocontenuto_leftarrow_3.onclick = function() {
             - 100ml LATTE (no lattosio) | kcal: 43, prot: 4g, carbo: 5g, grassi: 1g<br>
             (_TOT_ KCAL: 688, PROT: 33g, CARBO: 71g, GRASSI: 31g, FIBRE: 2g)
         `;
-        
     }
 }
 titolocontenuto_rightarrow_3.onclick = function() {
 
     if (titolocontenuto_colazione_3.innerHTML === "COLAZIONE") {
+        titolocontenuto_colazione_3.innerHTML = "SPUNTINO";
+        contenuto_default_3.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_3.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_3.innerHTML = "PRANZO";
         contenuto_default_3.innerHTML = `
             - PASTA TONNO E OLIVE (200g pasta 100g tonno 50g olive) | kcal: 858, prot: 48g, carbo: 153g, grassi: 10g, fibre: 6g<br>
@@ -314,6 +345,14 @@ titolocontenuto_leftarrow_4.onclick = function() {
             (_TOT_ KCAL: 998, PROT: 74g, CARBO: 157g, GRASSI: 12g, FIBRE: 6g)
         `;
     } else if (titolocontenuto_colazione_4.innerHTML === "PRANZO") {
+        titolocontenuto_colazione_3.innerHTML = "SPUNTINO";
+        contenuto_default_3.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_4.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_4.innerHTML = "COLAZIONE";
         contenuto_default_4.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
@@ -326,6 +365,14 @@ titolocontenuto_leftarrow_4.onclick = function() {
 titolocontenuto_rightarrow_4.onclick = function() {
 
     if (titolocontenuto_colazione_4.innerHTML === "COLAZIONE") {
+        titolocontenuto_colazione_3.innerHTML = "SPUNTINO";
+        contenuto_default_3.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_4.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_4.innerHTML = "PRANZO";
         contenuto_default_4.innerHTML = `
             - PASTA TONNO E OLIVE (200g pasta 100g tonno 50g olive) | kcal: 858, prot: 48g, carbo: 153g, grassi: 10g, fibre: 6g<br>
@@ -469,6 +516,14 @@ titolocontenuto_leftarrow_6.onclick = function() {
             (_TOT_ KCAL: 988, PROT: 31g, CARBO: 207g, GRASSI: 2g, FIBRE: 10g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "PRANZO") {
+        titolocontenuto_colazione_3.innerHTML = "SPUNTINO";
+        contenuto_default_3.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_6.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_6.innerHTML = "COLAZIONE";
         contenuto_default_6.innerHTML = `
             - ALBUME D'UOVO 200g | kcal: 87, prot: 21g<br>
@@ -481,6 +536,14 @@ titolocontenuto_leftarrow_6.onclick = function() {
 titolocontenuto_rightarrow_6.onclick = function() {
 
     if (titolocontenuto_colazione_6.innerHTML === "COLAZIONE") {
+        titolocontenuto_colazione_3.innerHTML = "SPUNTINO";
+        contenuto_default_3.innerHTML = `
+            - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
+            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
+            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
+            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+        `;
+    } else if (titolocontenuto_colazione_6.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_6.innerHTML = "PRANZO";
         contenuto_default_6.innerHTML = `
             - PASTA (in bianco) 170g | kcal: 596, prot: 15g, carbo: 118g, grassi: 1g, fibre: 4g<br>
