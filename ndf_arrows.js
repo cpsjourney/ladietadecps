@@ -377,10 +377,9 @@ titolocontenuto_leftarrow_5.onclick = function() {
         titolocontenuto_colazione_5.innerHTML = "MERENDA";
         contenuto_default_5.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
-            - 1 BANANA 100g | kcal: 90, prot: 1g, carbo: 22g<br>
             - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 938, PROT: 27g, CARBO: 67g, GRASSI: 59g, FIBRE: 1g)
+            (_TOT_ KCAL: 848, PROT: 26g, CARBO: 45g, GRASSI: 59g, FIBRE: 1g)
         `;
     } else if (titolocontenuto_colazione_5.innerHTML === "MERENDA") {
         titolocontenuto_colazione_5.innerHTML = "PRANZO";
@@ -416,10 +415,9 @@ titolocontenuto_rightarrow_5.onclick = function() {
         titolocontenuto_colazione_5.innerHTML = "MERENDA";
         contenuto_default_5.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
-            - 1 BANANA 100g | kcal: 90, prot: 1g, carbo: 22g<br>
             - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 938, PROT: 27g, CARBO: 67g, GRASSI: 59g, FIBRE: 1g)
+            (_TOT_ KCAL: 848, PROT: 26g, CARBO: 45g, GRASSI: 59g, FIBRE: 1g)
         `;
     } else if (titolocontenuto_colazione_5.innerHTML === "MERENDA") {
         titolocontenuto_colazione_5.innerHTML = "CENA";
