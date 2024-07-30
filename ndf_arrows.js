@@ -148,7 +148,7 @@ titolocontenuto_rightarrow_1.onclick = function() {
 titolocontenuto_leftarrow_2.onclick = function() {
 
     if (titolocontenuto_colazione_2.innerHTML === "COLAZIONE") {
-    titolocontenuto_colazione_2.innerHTML = "CENA";
+        titolocontenuto_colazione_2.innerHTML = "CENA";
         contenuto_default_2.innerHTML = `
             - CAROTE 100g | kcal: 41, prot: 1g, carbo: 10g, fibre: 3g<br>
             - PETTO DI POLLO 150g | kcal: 248, prot: 47g, grassi: 5g<br>
@@ -252,27 +252,26 @@ titolocontenuto_leftarrow_3.onclick = function() {
         titolocontenuto_colazione_3.innerHTML = "MERENDA";
         contenuto_default_3.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
-            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
             - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 958, PROT: 28g, CARBO: 71g, GRASSI: 59g, FIBRE: 5g)
+            (_TOT_ KCAL: 848, PROT: 26g, CARBO: 45g, GRASSI: 59g, FIBRE: 1g)
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "MERENDA") {
         titolocontenuto_colazione_3.innerHTML = "PRANZO";
         contenuto_default_3.innerHTML = `
-            - CANNELLONI 250g | kcal: 422, prot: 20g, carbo: 50g, grassi: 17g, fibre: 3g<br>
+            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 727, PROT: 34g, CARBO: 112g, GRASSI: 17g, FIBRE: 9g)
+            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "PRANZO") {
         titolocontenuto_colazione_3.innerHTML = "COLAZIONE";
         contenuto_default_3.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
             - 200ml LATTE (no lattosio) | kcal: 85, prot: 7g, carbo: 10g, grassi: 2g<br>
-            - 1 PESCA 150g | kcal: 60, prot: 2g, carbo: 15g<br>
-            (_TOT_ KCAL: 617, PROT: 19g, CARBO: 83g, GRASSI: 25g, FIBRE: 2g)
+            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
+            (_TOT_ KCAL: 667, PROT: 19g, CARBO: 94g, GRASSI: 25g, FIBRE: 6g)
         `;
     }
 }
@@ -281,20 +280,19 @@ titolocontenuto_rightarrow_3.onclick = function() {
     if (titolocontenuto_colazione_3.innerHTML === "COLAZIONE") {
         titolocontenuto_colazione_3.innerHTML = "PRANZO";
         contenuto_default_3.innerHTML = `
-            - CANNELLONI 250g | kcal: 422, prot: 20g, carbo: 50g, grassi: 17g, fibre: 3g<br>
+            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 727, PROT: 34g, CARBO: 112g, GRASSI: 17g, FIBRE: 9g)
+            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "PRANZO") {
         titolocontenuto_colazione_3.innerHTML = "MERENDA";
         contenuto_default_3.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
-            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
             - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 958, PROT: 28g, CARBO: 71g, GRASSI: 59g, FIBRE: 5g)
+            (_TOT_ KCAL: 848, PROT: 26g, CARBO: 45g, GRASSI: 59g, FIBRE: 1g)
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "MERENDA") {
         titolocontenuto_colazione_3.innerHTML = "CENA";
@@ -309,8 +307,8 @@ titolocontenuto_rightarrow_3.onclick = function() {
         contenuto_default_3.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
             - 200ml LATTE (no lattosio) | kcal: 85, prot: 7g, carbo: 10g, grassi: 2g<br>
-            - 1 PESCA 150g | kcal: 60, prot: 2g, carbo: 15g<br>
-            (_TOT_ KCAL: 617, PROT: 19g, CARBO: 83g, GRASSI: 25g, FIBRE: 2g)
+            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
+            (_TOT_ KCAL: 667, PROT: 19g, CARBO: 94g, GRASSI: 25g, FIBRE: 6g)
         `;
     }
 }
@@ -519,26 +517,27 @@ titolocontenuto_leftarrow_6.onclick = function() {
         titolocontenuto_colazione_6.innerHTML = "MERENDA";
         contenuto_default_6.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
+            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
             - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 848, PROT: 26g, CARBO: 45g, GRASSI: 59g, FIBRE: 1g)
+            (_TOT_ KCAL: 958, PROT: 28g, CARBO: 71g, GRASSI: 59g, FIBRE: 5g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "MERENDA") {
         titolocontenuto_colazione_6.innerHTML = "PRANZO";
         contenuto_default_6.innerHTML = `
-            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
+            - CANNELLONI 250g | kcal: 422, prot: 20g, carbo: 50g, grassi: 17g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
+            (_TOT_ KCAL: 727, PROT: 34g, CARBO: 112g, GRASSI: 17g, FIBRE: 9g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "PRANZO") {
         titolocontenuto_colazione_6.innerHTML = "COLAZIONE";
         contenuto_default_6.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
             - 200ml LATTE (no lattosio) | kcal: 85, prot: 7g, carbo: 10g, grassi: 2g<br>
-            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
-            (_TOT_ KCAL: 667, PROT: 19g, CARBO: 94g, GRASSI: 25g, FIBRE: 6g)
+            - 1 PESCA 150g | kcal: 60, prot: 2g, carbo: 15g<br>
+            (_TOT_ KCAL: 617, PROT: 19g, CARBO: 83g, GRASSI: 25g, FIBRE: 2g)
         `;
     }
 }
@@ -547,19 +546,20 @@ titolocontenuto_rightarrow_6.onclick = function() {
     if (titolocontenuto_colazione_6.innerHTML === "COLAZIONE") {
         titolocontenuto_colazione_6.innerHTML = "PRANZO";
         contenuto_default_6.innerHTML = `
-            - RISO AL RAGU (200g riso 100g ragu) | kcal: 404, prot: 12g, carbo: 71g, grassi: 7g, fibre: 3g<br>
+            - CANNELLONI 250g | kcal: 422, prot: 20g, carbo: 50g, grassi: 17g, fibre: 3g<br>
             - SPINACI 100g | kcal: 25, prot: 3g, carbo: 3g, fibre: 2g<br>
             - 2 KIWI 180g | kcal: 80, prot: 1g, carbo: 9g, fibre: 2g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 709, PROT: 26g, CARBO: 133g, GRASSI: 7g, FIBRE: 9g) 
+            (_TOT_ KCAL: 727, PROT: 34g, CARBO: 112g, GRASSI: 17g, FIBRE: 9g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "PRANZO") {
         titolocontenuto_colazione_6.innerHTML = "MERENDA";
         contenuto_default_6.innerHTML = `
             - 1 AVOCADO 200g | kcal: 480, prot: 9g, carbo: 4g, grassi: 46g<br>
+            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
             - 4 BISCOTTI (tremarie) 60g | kcal: 308, prot: 4g, carbo: 40g, grassi: 13g, fibre: 1g<br>
             - 1/2 INTEGRATORE PROT 1misurino | kcal: 60, prot: 13g, carbo: 1g<br>
-            (_TOT_ KCAL: 848, PROT: 26g, CARBO: 45g, GRASSI: 59g, FIBRE: 1g)
+            (_TOT_ KCAL: 958, PROT: 28g, CARBO: 71g, GRASSI: 59g, FIBRE: 5g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "MERENDA") {
         titolocontenuto_colazione_6.innerHTML = "CENA";
@@ -574,8 +574,8 @@ titolocontenuto_rightarrow_6.onclick = function() {
         contenuto_default_6.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
             - 200ml LATTE (no lattosio) | kcal: 85, prot: 7g, carbo: 10g, grassi: 2g<br>
-            - 2 PESCHE 280g | kcal: 110, prot: 2g, carbo: 26g, fibre: 4g<br>
-            (_TOT_ KCAL: 667, PROT: 19g, CARBO: 94g, GRASSI: 25g, FIBRE: 6g)
+            - 1 PESCA 150g | kcal: 60, prot: 2g, carbo: 15g<br>
+            (_TOT_ KCAL: 617, PROT: 19g, CARBO: 83g, GRASSI: 25g, FIBRE: 2g)
         `;
     }
 }
