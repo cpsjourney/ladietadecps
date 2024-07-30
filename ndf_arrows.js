@@ -244,9 +244,9 @@ titolocontenuto_leftarrow_3.onclick = function() {
         titolocontenuto_colazione_3.innerHTML = "CENA";
         contenuto_default_3.innerHTML = `
             - MERLUZZO 200g | kcal: 160, prot: 34, grassi: 1g<br>
-            - 1 CUCCHIAIO D'OLIO EVO | kcal: 130, grassi: 15g<br>
+            - 2 CUCCHIAI D'OLIO EVO | kcal: 260, grassi: 30g<br>
             - [SGARRO] 2 HAMBURGER MCDONALD | kcal: 520, prot: 26g, carbo: 58, grassi: 19g, fibre: 5g<br>
-            (_TOT_ KCAL: 810, PROT: 60g, CARBO: 58g, GRASSI: 35g, FIBRE: 5g)
+            (_TOT_ KCAL: 940, PROT: 60g, CARBO: 58g, GRASSI: 50g, FIBRE: 5g)
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "CENA") {
         titolocontenuto_colazione_3.innerHTML = "MERENDA";
@@ -300,9 +300,9 @@ titolocontenuto_rightarrow_3.onclick = function() {
         titolocontenuto_colazione_3.innerHTML = "CENA";
         contenuto_default_3.innerHTML = `
             - MERLUZZO 200g | kcal: 160, prot: 34, grassi: 1g<br>
-            - 1 CUCCHIAIO D'OLIO EVO | kcal: 130, grassi: 15g<br>
+            - 2 CUCCHIAI D'OLIO EVO | kcal: 260, grassi: 30g<br>
             - [SGARRO] 2 HAMBURGER MCDONALD | kcal: 520, prot: 26g, carbo: 58, grassi: 19g, fibre: 5g<br>
-            (_TOT_ KCAL: 810, PROT: 60g, CARBO: 58g, GRASSI: 35g, FIBRE: 5g)
+            (_TOT_ KCAL: 940, PROT: 60g, CARBO: 58g, GRASSI: 50g, FIBRE: 5g)
         `;
     } else if (titolocontenuto_colazione_3.innerHTML === "CENA") {
         titolocontenuto_colazione_3.innerHTML = "COLAZIONE";
@@ -511,9 +511,9 @@ titolocontenuto_leftarrow_6.onclick = function() {
         titolocontenuto_colazione_6.innerHTML = "CENA";
         contenuto_default_6.innerHTML = `
             - MERLUZZO 200g | kcal: 160, prot: 34, grassi: 1g<br>
-            - 1 CUCCHIAIO D'OLIO EVO | kcal: 130, grassi: 15g<br>
+            - 2 CUCCHIAI D'OLIO EVO | kcal: 260, grassi: 30g<br>
             - [SGARRO] 2 HAMBURGER MCDONALD | kcal: 520, prot: 26g, carbo: 58, grassi: 19g, fibre: 5g<br>
-            (_TOT_ KCAL: 810, PROT: 60g, CARBO: 58g, GRASSI: 35g, FIBRE: 5g)
+            (_TOT_ KCAL: 940, PROT: 60g, CARBO: 58g, GRASSI: 50g, FIBRE: 5g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "CENA") {
         titolocontenuto_colazione_6.innerHTML = "MERENDA";
@@ -565,9 +565,9 @@ titolocontenuto_rightarrow_6.onclick = function() {
         titolocontenuto_colazione_6.innerHTML = "CENA";
         contenuto_default_6.innerHTML = `
             - MERLUZZO 200g | kcal: 160, prot: 34, grassi: 1g<br>
-            - 1 CUCCHIAIO D'OLIO EVO | kcal: 130, grassi: 15g<br>
+            - 2 CUCCHIAI D'OLIO EVO | kcal: 260, grassi: 30g<br>
             - [SGARRO] 2 HAMBURGER MCDONALD | kcal: 520, prot: 26g, carbo: 58, grassi: 19g, fibre: 5g<br>
-            (_TOT_ KCAL: 810, PROT: 60g, CARBO: 58g, GRASSI: 35g, FIBRE: 5g)
+            (_TOT_ KCAL: 940, PROT: 60g, CARBO: 58g, GRASSI: 50g, FIBRE: 5g)
         `;
     } else if (titolocontenuto_colazione_6.innerHTML === "CENA") {
         titolocontenuto_colazione_6.innerHTML = "COLAZIONE";
