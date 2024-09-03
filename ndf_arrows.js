@@ -153,8 +153,9 @@ titolocontenuto_leftarrow_2.onclick = function() {
             - CAROTE 100g | kcal: 41, prot: 1g, carbo: 10g, fibre: 3g<br>
             - PETTO DI POLLO 150g | kcal: 248, prot: 47g, grassi: 5g<br>
             - 3 CUCCHIAI D'OLIO EVO | kcal: 390, grassi: 45g<br>
+            - RISO BIANCO 60g | kcal: 210, prot: 5g, carbo: 50g, fibre: 1g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 879, PROT: 58g, CARBO: 60g, GRASSI: 50g, FIBRE: 5g)
+            (_TOT_ KCAL: 989, PROT: 63g, CARBO: 110g, GRASSI: 50g, FIBRE: 6g)
         `;
     } else if (titolocontenuto_colazione_2.innerHTML === "CENA") {
         titolocontenuto_colazione_2.innerHTML = "MERENDA";
@@ -222,8 +223,9 @@ titolocontenuto_rightarrow_2.onclick = function() {
             - CAROTE 100g | kcal: 41, prot: 1g, carbo: 10g, fibre: 3g<br>
             - PETTO DI POLLO 150g | kcal: 248, prot: 47g, grassi: 5g<br>
             - 3 CUCCHIAI D'OLIO EVO | kcal: 390, grassi: 45g<br>
+            - RISO BIANCO 60g | kcal: 210, prot: 5g, carbo: 50g, fibre: 1g<br>
             - PANE 100g | kcal: 200, prot: 10g, carbo: 50g, fibre: 2g<br>
-            (_TOT_ KCAL: 879, PROT: 58g, CARBO: 60g, GRASSI: 50g, FIBRE: 5g)
+            (_TOT_ KCAL: 989, PROT: 63g, CARBO: 110g, GRASSI: 50g, FIBRE: 6g)
         `;
     } else if (titolocontenuto_colazione_2.innerHTML === "CENA") {
         titolocontenuto_colazione_2.innerHTML = "COLAZIONE";
@@ -415,8 +417,9 @@ titolocontenuto_leftarrow_5.onclick = function() {
         contenuto_default_5.innerHTML = `
             - PETTO DI POLLO 200g | kcal: 331, prot: 62g, grassi: 7g<br>
             - 3 CUCCHIAI D'OLIO EVO | kcal: 390, grassi: 45g<br>
+            - RISO BIANCO 60g | kcal: 210, prot: 5g, carbo: 50g, fibre: 1g<br>
             - 1 MELA 150g | kcal: 60, prot: 1g, carbo: 15g, fibre: 2g<br>
-            (_TOT_ KCAL: 781, PROT: 63g, CARBO: 15g, GRASSI: 52g, FIBRE: 2g)
+            (_TOT_ KCAL: 991, PROT: 68g, CARBO: 65g, GRASSI: 52g, FIBRE: 3g)
         `;
     } else if (titolocontenuto_colazione_5.innerHTML === "CENA") {
         titolocontenuto_colazione_5.innerHTML = "MERENDA";
@@ -487,8 +490,9 @@ titolocontenuto_rightarrow_5.onclick = function() {
         contenuto_default_5.innerHTML = `
             - PETTO DI POLLO 200g | kcal: 331, prot: 62g, grassi: 7g<br>
             - 3 CUCCHIAI D'OLIO EVO | kcal: 390, grassi: 45g<br>
+            - RISO BIANCO 60g | kcal: 210, prot: 5g, carbo: 50g, fibre: 1g<br>
             - 1 MELA 150g | kcal: 60, prot: 1g, carbo: 15g, fibre: 2g<br>
-            (_TOT_ KCAL: 781, PROT: 63g, CARBO: 15g, GRASSI: 52g, FIBRE: 2g)
+            (_TOT_ KCAL: 991, PROT: 68g, CARBO: 65g, GRASSI: 52g, FIBRE: 3g)
         `;
     } else if (titolocontenuto_colazione_5.innerHTML === "CENA") {
         titolocontenuto_colazione_5.innerHTML = "COLAZIONE";
