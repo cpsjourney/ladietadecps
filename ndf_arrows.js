@@ -540,8 +540,8 @@ titolocontenuto_leftarrow_6.onclick = function() {
         contenuto_default_6.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
             - 200ml LATTE (no lattosio) | kcal: 85, prot: 7g, carbo: 10g, grassi: 2g<br>
-            - 1 PESCA 150g | kcal: 60, prot: 2g, carbo: 15g<br>
-            (_TOT_ KCAL: 617, PROT: 19g, CARBO: 83g, GRASSI: 25g, FIBRE: 2g)
+            - 2 PESCHE (o 1 ARANCIA) 150g | kcal: 120, prot: 4g, carbo: 30g<br>
+            (_TOT_ KCAL: 677, PROT: 21g, CARBO: 98g, GRASSI: 25g, FIBRE: 2g)
         `;
     }
 }
@@ -578,8 +578,8 @@ titolocontenuto_rightarrow_6.onclick = function() {
         contenuto_default_6.innerHTML = `
             - 4 PANCAKE 160g (tremulini) | kcal: 472, prot: 10g, carbo: 58g, grassi: 23g, fibre: 2g<br>
             - 200ml LATTE (no lattosio) | kcal: 85, prot: 7g, carbo: 10g, grassi: 2g<br>
-            - 1 PESCA 150g | kcal: 60, prot: 2g, carbo: 15g<br>
-            (_TOT_ KCAL: 617, PROT: 19g, CARBO: 83g, GRASSI: 25g, FIBRE: 2g)
+            - 2 PESCHE (o 1 ARANCIA) 150g | kcal: 120, prot: 4g, carbo: 30g<br>
+            (_TOT_ KCAL: 677, PROT: 21g, CARBO: 98g, GRASSI: 25g, FIBRE: 2g)
         `;
     }
 }
