@@ -177,9 +177,9 @@ titolocontenuto_leftarrow_2.onclick = function() {
         titolocontenuto_colazione_2.innerHTML = "SPUNTINO";
         contenuto_default_2.innerHTML = `
             - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
-            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
-            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
-            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+            - 2 BISCOTTI (tremarie) 30g | kcal: 152, prot: 2g, carbo: 20g, grassi: 6g<br>
+            - PANE 75g | kcal: 150, prot: 7g, carbo: 38g, fibre: 2g<br>
+            (_TOT_ KCAL: 400, PROT: 8g, CARBO: 90g, GRASSI: 5g, FIBRE: 6g)
         `;
     } else if (titolocontenuto_colazione_2.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_2.innerHTML = "COLAZIONE";
@@ -197,9 +197,9 @@ titolocontenuto_rightarrow_2.onclick = function() {
         titolocontenuto_colazione_2.innerHTML = "SPUNTINO";
         contenuto_default_2.innerHTML = `
             - 4 FETTE BISCOTTATE 40g | kcal: 150, prot: 2g, carbo: 30g, grassi: 2g, fibre: 4g<br>
-            - 1 BISCOTTO (tremarie) 15g | kcal: 76, prot: 1g, carbo: 10g, grassi: 3g<br>
-            - PANE 50g | kcal: 100, prot: 5g, carbo: 25g, fibre: 1g<br>
-            (_TOT_ KCAL: 326, PROT: 8g, CARBO: 65g, GRASSI: 5g, FIBRE: 5g)
+            - 2 BISCOTTI (tremarie) 30g | kcal: 152, prot: 2g, carbo: 20g, grassi: 6g<br>
+            - PANE 75g | kcal: 150, prot: 7g, carbo: 38g, fibre: 2g<br>
+            (_TOT_ KCAL: 400, PROT: 8g, CARBO: 90g, GRASSI: 5g, FIBRE: 6g)
         `;
     } else if (titolocontenuto_colazione_2.innerHTML === "SPUNTINO") {
         titolocontenuto_colazione_2.innerHTML = "PRANZO";
